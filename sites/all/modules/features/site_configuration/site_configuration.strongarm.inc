@@ -14,28 +14,28 @@ function site_configuration_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_frontpage';
-  $strongarm->value = 'node';
+  $strongarm->value = 'node/1';
   $export['site_frontpage'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Jordan\'s World of Books (And Other Forgotten Relics)';
+  $strongarm->value = 'Jordan\'s Book Barn';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_slogan';
-  $strongarm->value = '"Fighting a Losing Battle Since 2015"';
+  $strongarm->value = '"Please Buy Our Books"';
   $export['site_slogan'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
-  $strongarm->value = 'bartik';
+  $strongarm->value = 'garland';
   $export['theme_default'] = $strongarm;
 
   return $export;
